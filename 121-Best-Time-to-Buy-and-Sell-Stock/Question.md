@@ -23,3 +23,9 @@ If you were only permitted to complete at most one transaction (ie, buy one and 
 <div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
 <span class="hidebutton">[(M) Maximum Subarray](/problems/maximum-subarray/) [(M) Best Time to Buy and Sell Stock II](/problems/best-time-to-buy-and-sell-stock-ii/) [(H) Best Time to Buy and Sell Stock III](/problems/best-time-to-buy-and-sell-stock-iii/) [(H) Best Time to Buy and Sell Stock IV](/problems/best-time-to-buy-and-sell-stock-iv/) [(M) Best Time to Buy and Sell Stock with Cooldown](/problems/best-time-to-buy-and-sell-stock-with-cooldown/)</span></div>
+
+
+
+Solution：
+
+Loop the array, find the minimum price and calculate the highest profit in the mean time.
